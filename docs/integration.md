@@ -14,7 +14,7 @@ option is an environment variable instead.
 ## The build option: `CRAFT_FONTS_DIR`
 
 ```sh
-git clone https://github.com/storytold/craft-fonts ../craft-fonts
+git clone https://github.com/MAKRIA-CRAFT/craft-fonts ../craft-fonts
 CRAFT_FONTS_DIR=$PWD/../craft-fonts cargo build --release
 ```
 
@@ -130,7 +130,7 @@ them. In `release.yml`, check out craft-fonts at a pinned commit and build with 
 ```yaml
 - uses: actions/checkout@v4
   with:
-    repository: storytold/craft-fonts
+    repository: MAKRIA-CRAFT/craft-fonts
     ref: <full commit SHA>        # bump deliberately
     path: craft-fonts
 # then, on the build steps:
